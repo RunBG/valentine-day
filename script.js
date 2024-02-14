@@ -91,3 +91,6 @@ document.addEventListener('DOMContentLoaded', function () {
   // Bắt đầu phát
   audio.play();
 });
+document.addEventListener('click', function() {
+  playMusic();
+});
