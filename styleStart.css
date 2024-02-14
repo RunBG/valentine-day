@@ -1,0 +1,41 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% chiều cao của viewport */
+    margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  height: 10rem;
+  width: 10rem;
+  font-weight: 500;
+}
+.button-like {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #c5f9d7, #f7d486, #f27a7d);
+  color: #e60b09;
+  font-weight: 200;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  line-height: 40px; /* Đặt giá trị line-height để giữ chữ nằm giữa */
+}
+
+  /* Hover effect */
+  .button-like:hover {
+    background-color: #2980b9;
+  }
