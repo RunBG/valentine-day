@@ -92,5 +92,6 @@ document.addEventListener('DOMContentLoaded', function () {
   audio.play();
 });
 document.addEventListener('click', function() {
-  playMusic();
+  var audio = document.getElementById('myAudio');
+  audio.play();
 });
